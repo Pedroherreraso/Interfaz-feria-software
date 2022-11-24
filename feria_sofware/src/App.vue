@@ -1,25 +1,31 @@
 <template>
-    <Pagina_Inicial/>
+  <div class="container-flud">
+    <img src="./assets/fesw-logo.png" alt="">
+    <img src="./assets/Banner.png" alt="30º Feria de Software 2022" width="1350">
+  </div>
+  
+  <section id="organiza">
+          <div class="container">
+              <div>
+                <h5>Abierta a todo público </h5> <!-- presentando <b>pase de movilidad</b></h5 -->
+                Transmisión vía streaming por: <a target="_black" href="https://tv.inf.utfsm.cl/">https://tv.inf.utfsm.cl/</a>
+              <div>Organiza <a href="http://www.inf.utfsm.cl/">
+                <img src="https://www.feriadesoftware.cl/wp-content/themes/AA-fesw2017/img/Departamento de Informática_HORIZONTAL_BLANCA COMPLETA.png"></a></div>
+            </div>
+          </div>
+        </section>
   </template>
     
 <script>
-import Pagina_Inicial from './components/Pagina_Inicial';
 export default{
     name: 'app',
     components: {
-        Pagina_Inicial,
     }
 }
 </script>
 
 <style>
 body{
-  margin: 0; 
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  background-color: #162C41;
-  min-height: 100vh;
+  background-color: #162c41;
 }
 </style>

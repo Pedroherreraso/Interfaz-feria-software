@@ -1,22 +1,16 @@
 <template>
-    <div class="pagina_inicial">
-        <h1>Esto es una prueba</h1>
-    </div>
+        <img src="assets/fesw-logo.png" alt="30º Feria de Software 2022">
 </template>
 
 <script>
 export default{
     name: 'pagina_inicial',
     props: {
-        msg: String
+        Image
     }
 }
 </script>
 
 <style>
-.pagina_inicial{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
+
 </style>
